@@ -1,0 +1,46 @@
+:root{
+  /* ---- Forest greens (sampled from logo compass + wordmark) ---- */
+  --wn-forest-900:#3F5A46;
+  --wn-forest-800:#2E4535;
+  --wn-forest-700:#49604C;
+  --wn-forest-600:#456048;
+
+  /* ---- Teal / slate-blue accents (water + growth arrow) ---- */
+  --wn-teal-700:#3D6362;
+  --wn-teal-600:#4A7876;
+  --wn-teal-500:#5B8482;
+  --wn-slate-blue:#4E7C93;
+
+  /* ---- Warm neutrals (logo paper field) ---- */
+  --wn-cream-100:#FBF1E5;
+  --wn-cream-50:#F8F1E1;
+  --wn-cream-200:#F3E9D8;
+  --wn-ivory:#FEFCF6;
+  --wn-charcoal:#2E332F;
+  --wn-gray-500:#6B6F68;
+  --wn-gray-300:#9BA096;
+  --wn-border:#E4DACB;
+
+  /* ---- Semantic aliases: use these in components ---- */
+  --wn-bg:var(--wn-cream-100);
+  --wn-bg-alt:var(--wn-cream-50);
+  --wn-surface:var(--wn-ivory);
+  --wn-surface-sunken:var(--wn-cream-200);
+  --wn-text:var(--wn-forest-900);
+  --wn-text-strong:var(--wn-charcoal);
+  --wn-text-muted:var(--wn-gray-500);
+  --wn-text-on-dark:var(--wn-ivory);
+  --wn-text-on-dark-muted:rgba(254,252,246,0.72);
+  --wn-accent:var(--wn-teal-600);
+  --wn-accent-hover:var(--wn-teal-700);
+  --wn-accent-soft:var(--wn-teal-500);
+  --wn-data:var(--wn-slate-blue);
+  --wn-line:var(--wn-border);
+  --wn-line-strong:#D6C8B2;
+  --wn-focus:var(--wn-teal-600);
+
+  /* ---- Gradients (texture, never bold color blocking) ---- */
+  --wn-gradient-hero:linear-gradient(180deg,#FBF1E5 0%,#F3E9D8 100%); /* @kind color */
+  --wn-gradient-cta:linear-gradient(135deg,#3F5A46 0%,#2E4535 100%); /* @kind color */
+  --wn-gradient-accent-soft:radial-gradient(circle at 30% 20%,rgba(74,120,118,0.12) 0%,rgba(74,120,118,0) 70%); /* @kind color */
+}

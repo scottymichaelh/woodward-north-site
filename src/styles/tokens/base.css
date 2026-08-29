@@ -1,0 +1,11 @@
+/* Minimal element defaults. Consumers get warm-cream page, forest text, teal links. */
+body{margin:0;background:var(--wn-bg);color:var(--wn-text);font-family:var(--wn-font-body);font-size:var(--wn-body);line-height:var(--wn-lh-body);-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{font-family:var(--wn-font-heading);color:var(--wn-text);letter-spacing:var(--wn-track-heading);line-height:var(--wn-lh-heading);margin:0}
+h1{font-size:var(--wn-h1);font-weight:var(--wn-w-bold);line-height:var(--wn-lh-tight)}
+h2{font-size:var(--wn-h2);font-weight:var(--wn-w-bold)}
+h3{font-size:var(--wn-h3);font-weight:var(--wn-w-semibold)}
+h4{font-size:var(--wn-h4);font-weight:var(--wn-w-semibold)}
+p{margin:0 0 1em;text-wrap:pretty}
+a{color:var(--wn-accent);text-decoration:none;transition:color var(--wn-dur) var(--wn-ease)}
+a:hover{color:var(--wn-accent-hover);text-decoration:underline}
+*:focus-visible{outline:none;box-shadow:var(--wn-ring-focus);border-radius:var(--wn-radius-button)}

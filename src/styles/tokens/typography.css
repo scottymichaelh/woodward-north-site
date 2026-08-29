@@ -1,0 +1,30 @@
+:root{
+  --wn-font-heading:"Poppins","Inter",system-ui,sans-serif;
+  --wn-font-body:"Inter","Source Sans 3",system-ui,sans-serif;
+
+  /* Sizes */
+  --wn-h1:clamp(38px,5.4vw,64px); /* @kind font */
+  --wn-h2:clamp(29px,3.4vw,40px); /* @kind font */
+  --wn-h3:24px;
+  --wn-h4:19px;
+  --wn-body-lg:19px;
+  --wn-body:16px;
+  --wn-small:14px;
+  --wn-eyebrow:13px;
+
+  /* Weights */
+  --wn-w-regular:400; /* @kind font */
+  --wn-w-medium:500; /* @kind font */
+  --wn-w-semibold:600; /* @kind font */
+  --wn-w-bold:700; /* @kind font */
+
+  /* Line heights */
+  --wn-lh-tight:1.15; /* @kind font */
+  --wn-lh-heading:1.2; /* @kind font */
+  --wn-lh-body:1.6; /* @kind font */
+  --wn-lh-loose:1.65; /* @kind font */
+
+  /* Tracking */
+  --wn-track-eyebrow:0.1em; /* @kind font */
+  --wn-track-heading:-0.01em; /* @kind font */
+}

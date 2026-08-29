@@ -1,0 +1,29 @@
+.wn-header-nav {
+  display: flex;
+  align-items: center;
+  gap: var(--wn-space-5);
+  margin-left: auto;
+}
+
+.wn-header-toggle {
+  display: none;
+}
+
+.wn-header-mobile-panel {
+  display: none;
+}
+
+@media (max-width: 860px) {
+  .wn-header-nav-links,
+  .wn-header-cta-desktop {
+    display: none !important;
+  }
+
+  .wn-header-toggle {
+    display: inline-flex !important;
+  }
+
+  .wn-header-mobile-panel.is-open {
+    display: flex;
+  }
+}

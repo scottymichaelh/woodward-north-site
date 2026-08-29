@@ -1,0 +1,17 @@
+:root{
+  --wn-space-1:4px;
+  --wn-space-2:8px;
+  --wn-space-3:12px;
+  --wn-space-4:16px;
+  --wn-space-5:24px;
+  --wn-space-6:32px;
+  --wn-space-7:48px;
+  --wn-space-8:64px;
+  --wn-space-9:96px;
+  --wn-space-10:120px;
+
+  --wn-section-y:clamp(64px,9vw,120px); /* @kind spacing */
+  --wn-grid-gutter:28px;
+  --wn-container:1200px; /* @kind spacing */
+  --wn-container-narrow:760px; /* @kind spacing */
+}

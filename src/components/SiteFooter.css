@@ -1,0 +1,10 @@
+.wn-footer-grid {
+  display: grid;
+}
+
+@media (max-width: 700px) {
+  .wn-footer-grid {
+    grid-template-columns: 1fr !important;
+    gap: var(--wn-space-6) !important;
+  }
+}
