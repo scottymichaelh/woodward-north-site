@@ -8,15 +8,14 @@ import Textarea from "../components/Textarea";
 import Button from "../components/Button";
 
 const industries = [
-  "Financial services — PE & M&A",
+  "Financial services firms — PE & M&A",
   "Manufacturing & industrial services",
   "Professional & home services",
   "Commercial & residential real estate",
   "Consumer products & CPG",
   "Ecommerce & digital",
-  "ETA search — pre- or post-close",
-  "Something else",
-];
+  "ETA searchers — pre- or post-close"
+  ];
 
 export default function Contact() {
   const [sent, setSent] = useState(false);
@@ -27,10 +26,10 @@ export default function Contact() {
         <div style={{ maxWidth: 760, margin: "0 auto", textAlign: "center" }}>
           <div style={{ font: "600 13px/1.3 Inter,sans-serif", letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--wn-accent)" }}>Contact</div>
           <h1 style={{ margin: "12px 0 0", font: "700 46px/1.15 Poppins,sans-serif", letterSpacing: "-0.01em", color: "var(--wn-text)" }}>
-            Book a call, or send the details first
+            Book a free consultation
           </h1>
           <p style={{ margin: "16px 0 0", font: "400 19px/1.65 Inter,sans-serif", color: "var(--wn-text-muted)" }}>
-            Either way you'll hear back within one business day.
+            You'll hear back within one business day.
           </p>
         </div>
       </section>
@@ -43,7 +42,7 @@ export default function Contact() {
                 <Icon name="check-circle" size={32} color="var(--wn-accent)" />
                 <h2 style={{ margin: 0, font: "700 28px/1.2 Poppins,sans-serif", color: "var(--wn-text)" }}>Message sent</h2>
                 <p style={{ margin: 0, font: "400 17px/1.65 Inter,sans-serif", color: "var(--wn-text-muted)" }}>
-                  Thanks — we'll come back to you within one business day.
+                  Thank you! We'll come back to you within one business day.
                 </p>
               </div>
             ) : (
@@ -54,7 +53,7 @@ export default function Contact() {
                 }}
                 style={{ display: "flex", flexDirection: "column", gap: 20 }}
               >
-                <h2 style={{ margin: 0, font: "700 26px/1.2 Poppins,sans-serif", color: "var(--wn-text)" }}>Tell us about the business</h2>
+                <h2 style={{ margin: 0, font: "700 26px/1.2 Poppins,sans-serif", color: "var(--wn-text)" }}>Tell us about your business</h2>
                 <div className="wn-form-row">
                   <Field label="Name" htmlFor="cf-name" required>
                     <Input id="cf-name" name="name" placeholder="Your name" required />
@@ -96,7 +95,7 @@ export default function Contact() {
                   Pick a 20-minute slot on the calendar and skip the back-and-forth.
                 </p>
                 <div style={{ background: "var(--wn-cream-200)", border: "1px dashed #D9CBB6", borderRadius: 12, padding: 18, font: "400 14px/1.55 Inter,sans-serif", color: "var(--wn-text-muted)" }}>
-                  Scheduling embed goes here — send your Calendly or Google Appointments link and it drops in.
+                  https://calendly.com/scott-woodwardnorth/30min
                 </div>
                 <Button variant="accent" fullWidth href="#book">Open the calendar</Button>
               </div>
