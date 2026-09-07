@@ -73,7 +73,7 @@ export default function Home() {
             <div style={{ font: "600 13px/1.3 Inter,sans-serif", letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--wn-accent)" }}>
               Bookkeeping &amp; business advisory
             </div>
-            <h1 style={{ margin: 0, font: "600 56px/1.15 Poppins,sans-serif", letterSpacing: "-0.01em", color: "var(--wn-text)", textWrap: "balance" }}>
+            <h1 style={{ margin: 0, font: "400 56px/1.15 Poppins,sans-serif", letterSpacing: "-0.01em", color: "var(--wn-text)", textWrap: "balance" }}>
               Get Your Time Back. Gain Financial Clarity. Make Better Decisions 
             </h1>
             <p style={{ margin: 0, font: "400 19px/1.65 Inter,sans-serif", color: "var(--wn-text-muted)", maxWidth: "33em", textWrap: "pretty" }}>
