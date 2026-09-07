@@ -39,11 +39,26 @@ export default function About() {
               Scott Halasy, founder
             </h1>
             <p style={{ margin: "18px 0 0", font: "400 18px/1.65 Inter,sans-serif", color: "var(--wn-text-muted)", textWrap: "pretty" }}>
-              I started Woodward North because the businesses I care about most — the ones run by the person whose name is on the door — usually get the
-              thinnest financial support. They get a filing service, or they get an expensive firm that shows up once a year.
+              Hi, I'm Scott Halasy. 
+              I've spent my career at the intersection of finance & accounting, product & operations. 
+              Where I’ve found the most energy is when I’m able to combine rigorous quantitative financial analysis 
+              and a deep understanding of how a business operates with strategic thinking and decision-making.
+
+              Along the way I’ve developed a real passion for Main Street businesses: SMBs and lower middle-market companies. 
+              I love talking to business owners and founders, hearing their stories, finding their why, and learning about their vision and goals.
+              
+              I started Woodward North because the business I care about most, the Main Street one with an enduring legacy behind it, usually gets the
+              thinnest financial support. You get a filing service, or you get an expensive firm that shows up once a year. Perhaps you manage
+              your own books or have your CPA do it. Funny how you never hear from that CPA until Uncle Sam comes calling.
+              
+              And with your lean team and an endless to-do list, the simplest things become the biggest burden. The books fall behind. Tax season is around the corner. 
+              An acquisition entrepreneur, M&A advisor, or a local private equity firm calls to ask about your succession plan. 
+              
+              That's the last thing on your mind right now. You need to take back your time, take a deep breath.
+              And figure out how you can spend more time working on your business rather than in it.
             </p>
             <p style={{ margin: "16px 0 0", font: "400 18px/1.65 Inter,sans-serif", color: "var(--wn-text-muted)", textWrap: "pretty" }}>
-              What they need is a close that lands on time and someone who will sit with the numbers and say what they mean. That's the whole practice:
+              What you need is a monthly close that lands on time and someone who will sit with the numbers and say what they mean. That's what Woodward North is about:
               bookkeeping done properly, then a conversation about what to do next.
             </p>
             <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginTop: 24 }}>
