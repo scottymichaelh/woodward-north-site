@@ -96,7 +96,8 @@ export default function Contact() {
                 </p>
                 <div style={{ background: "var(--wn-cream-200)", border: "1px dashed #D9CBB6", borderRadius: 12, padding: 18, font: "400 14px/1.55 Inter,sans-serif", color: "var(--wn-text-muted)" }}>
                   https://calendly.com/scott-woodwardnorth/30min
-                </div>
+                  <a href="https://calendly.com/scott-woodwardnorth/30min"</a>                
+              </div>
                 <Button variant="accent" fullWidth href="#book">Open the calendar</Button>
               </div>
             </Card>
