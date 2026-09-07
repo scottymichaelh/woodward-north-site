@@ -95,7 +95,6 @@ export default function Contact() {
                   Pick a 20-minute slot on the calendar and skip the back-and-forth.
                 </p>
                 <div style={{ background: "var(--wn-cream-200)", border: "1px dashed #D9CBB6", borderRadius: 12, padding: 18, font: "400 14px/1.55 Inter,sans-serif", color: "var(--wn-text-muted)" }}>
-                  https://calendly.com/scott-woodwardnorth/30min
                   <a href="https://calendly.com/scott-woodwardnorth/30min"</a>                
               </div>
                 <Button variant="accent" fullWidth href="#book">Open the calendar</Button>
