@@ -98,6 +98,7 @@ export default function Contact() {
                   <a href="https://calendly.com/scott-woodwardnorth/30min"</a>                
               </div>
                 <Button variant="accent" fullWidth href="#book">Open the calendar</Button>
+                <a href="https://calendly.com/scott-woodwardnorth/30min"</a>
               </div>
             </Card>
             <Card padding="28px">
