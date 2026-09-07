@@ -86,34 +86,26 @@ export default function Contact() {
             )}
           </Card>
 
-          <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
+                    <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
             <Card padding="28px">
-    <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
-      <Icon name="calendar-check" size={24} color="var(--wn-accent)" />
-      <h3 style={{ margin: 0, font: "600 20px/1.25 Poppins,sans-serif", color: "var(--wn-text)" }}>Book it directly</h3>
-      <p style={{ margin: 0, font: "400 16px/1.6 Inter,sans-serif", color: "var(--wn-text-muted)" }}>
-        Pick a 20-minute slot on the calendar and skip the back-and-forth.
-      </p>
-      <div style={{ background: "var(--wn-cream-200)", border: "1px dashed #D9CBB6", borderRadius: 12, padding: 18, font: "400 14px/1.55 Inter,sans-serif", color: "var(--wn-text-muted)" }}>
-        
-          href="https://calendly.com/scott-woodwardnorth/30min"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          https://calendly.com/scott-woodwardnorth/30min
-        </a>
-      </div>
-      <Button
-        variant="accent"
-        fullWidth
-        href="https://calendly.com/scott-woodwardnorth/30min"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Open the calendar
-      </Button>
-    </div>
-  </Card>
+              <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
+                <Icon name="calendar-check" size={24} color="var(--wn-accent)" />
+                <h3 style={{ margin: 0, font: "600 20px/1.25 Poppins,sans-serif", color: "var(--wn-text)" }}>Book it directly</h3>
+                <p style={{ margin: 0, font: "400 16px/1.6 Inter,sans-serif", color: "var(--wn-text-muted)" }}>
+                  Pick a 20-minute slot on the calendar and skip the back-and-forth.
+                </p>
+                <Button
+                  variant="accent"
+                  fullWidth
+                  href="https://calendly.com/scott-woodwardnorth/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Open the calendar
+                </Button>
+              </div>
+            </Card>
+      
             <Card padding="28px">
               <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
                 <h3 style={{ margin: 0, font: "600 20px/1.25 Poppins,sans-serif", color: "var(--wn-text)" }}>Reach us</h3>
