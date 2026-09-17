@@ -122,7 +122,7 @@ export default function Contact() {
                   <a href="https://www.linkedin.com/in/scotthalasy/" target="_blank" rel="noopener">Scott Halasy on LinkedIn</a>
                 </div>
                 <p style={{ margin: "4px 0 0", font: "400 14px/1.6 Inter,sans-serif", color: "var(--wn-text-muted)" }}>
-                  Remote practice, clients nationwide. Placeholder phone number until the business line is live.
+                  Focused on startups and small businesses in metro-Detroit, Michigan and Chicago, IL. Placeholder phone number until the business line is live.
                 </p>
               </div>
             </Card>
