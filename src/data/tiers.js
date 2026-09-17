@@ -2,15 +2,16 @@ export const walkFeatures = [
   "Bookkeeping and transaction categorization",
   "Account reconciliation and month-end close",
   "Monthly financial statement package",
-  "A call to walk the statements with you",
+  "A detailed walkthrough telling the story behind the numbers",
 ];
 
 export const runFeatures = [
   "Everything in Walk",
-  "Monthly performance review against plan",
+  "Monthly performance review call against plan",
   "13-week rolling cash-flow forecast",
-  "KPI dashboard built for your business",
-  "Advisory that meets you where you are",
+  "Advisory that meets you where you are:
+  "P&L and balance sheet projections"
+  "Fundraising preparation, valuation & exit planning",
 ];
 
 export const svcClose = [
@@ -18,7 +19,7 @@ export const svcClose = [
   "Revenue and expenses categorized the same way each period",
   "Balance sheet tied out, not just plausible",
   "P&L, balance sheet and cash-flow statement delivered as a package",
-  "A live walkthrough of what changed and why",
+  "A detailed walkthrough of what changed and why",
 ];
 
 export const svcAdvisory = [
@@ -33,6 +34,5 @@ export const svcProjects = [
   "Catch-up and cleanup bookkeeping, to a clean opening balance",
   "Chart of accounts rebuild and QuickBooks Online setup",
   "Annual budget build",
-  "ETA diligence support and post-close accounting stand-up",
-  "Software migration",
+  "ETA diligence support and post-acquisition accounting stand-up",
 ];
