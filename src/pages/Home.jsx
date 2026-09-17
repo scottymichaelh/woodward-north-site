@@ -11,18 +11,23 @@ import { walkFeatures, runFeatures } from "../data/tiers";
 const problems = [
   {
     icon: "calendar-check",
-    title: "The close never lands",
-    body: "Books close six weeks late, so every decision is made on last quarter's information — or on instinct.",
+    title: "The close never happens",
+    body: "Books close six weeks late, so every decision is made on last quarter's information or gut instinct.",
   },
+   {
+    icon: "calendar-check",
+    title: "Time you won't get back",
+    body: "Books close six weeks late, so every decision is made on last quarter's information or gut instinct.",
+  }, 
   {
     icon: "file-text",
     title: "Statements nobody explains",
-    body: "A P&L lands in your inbox each month. No one walks you through what changed or why it matters.",
+    body: "A P&L lands in your inbox each month. No one walks you through what changed and why it matters.",
   },
   {
     icon: "repeat",
-    title: "Cash surprises you",
-    body: "Payroll, tax and a slow receivable collide in the same week, and nobody saw it coming thirteen weeks out.",
+    title: "Cash flow surprises",
+    body: "Payroll, tax, an overdue invoice, and a delayed receivable collide in the same week, and nobody saw it coming.",
   },
 ];
 
@@ -30,7 +35,7 @@ const services = [
   {
     icon: "calendar-check",
     title: "Monthly bookkeeping & close",
-    body: "Every account reconciled, revenue and expenses categorized the same way each month, and a financial statement package you actually get walked through.",
+    body: "All transactions recorded and categorized the same way each month, every account reconciled and closed, and a financial reporting package that includes the story behind the numbers.",
   },
   {
     icon: "search",
@@ -40,12 +45,12 @@ const services = [
   {
     icon: "trending-up",
     title: "Cash-flow forecasting & budgets",
-    body: "A rolling 13-week cash view and an annual budget you can hold the business to — updated with real actuals, not left in a spreadsheet from January.",
+    body: "We meet you where you are. A rolling 13-week cash view and an annual budget, updated with real actuals.",
   },
   {
     icon: "compass",
-    title: "Advisory & KPI reporting",
-    body: "Pricing, hiring, capex, lender packages, diligence prep. The dashboard shows the handful of numbers that move your business, and we work the decision together.",
+    title: "Advisory & KPIs",
+    body: "Helping you run towards your goals. Budgeting & forecasting, valuations, fundraising preparation, exit planning",
   },
 ];
 
@@ -59,9 +64,9 @@ const industries = [
 ];
 
 const steps = [
-  { label: "Step one", title: "A 20-minute call", body: "You tell us what the business does and where the books stand. We tell you what we'd do about it.", first: true },
-  { label: "Step two", title: "A look at the file", body: "We review your ledger, name any cleanup the books need, and send a flat monthly quote with the scope written down." },
-  { label: "Step three", title: "Close, then read-out", body: "Books close on a set date each month, statements land the same week, and we walk them with you." },
+  { label: "Step one", title: "A 20-minute call", body: "You tell us about your business, goals, and where the books stand. We meet you where you are.", first: true },
+  { label: "Step two", title: "A look at the books", body: "We review your statements or QuickBooks Online, name any cleanup the books need, and send a flat monthly quote with the scope written down. No hidden fees." },
+  { label: "Step three", title: "Close, then storytelling", body: "Books close by a set date each month, statements land the same week, and we tell you the story behind the numbers." },
 ];
 
 export default function Home() {
@@ -105,11 +110,11 @@ export default function Home() {
           <div style={{ maxWidth: 760 }}>
             <div style={{ font: "600 13px/1.3 Inter,sans-serif", letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--wn-accent)" }}>The problem</div>
             <h2 style={{ margin: "12px 0 0", font: "700 38px/1.2 Poppins,sans-serif", letterSpacing: "-0.01em", color: "var(--wn-text)" }}>
-              Every month you wait costs you clarity.
+              Every month you wait costs time, energey and financial clarity.
             </h2>
             <p style={{ margin: "14px 0 0", font: "400 19px/1.65 Inter,sans-serif", color: "var(--wn-text-muted)", textWrap: "pretty" }}>
-              Most owners aren't short on effort. They're short on a current, trustworthy set of numbers — and a person who will tell them what those
-              numbers mean.
+              Founders and owners must make decisions based on trustworthy numbers. They're short on time, and would rather focus on building a business. What's lacking is a trusted local partner who will tell 
+              them what those numbers mean.
             </p>
           </div>
           <div className="wn-grid-3" style={{ marginTop: 48 }}>
@@ -156,10 +161,10 @@ export default function Home() {
           <div>
             <div style={{ font: "600 13px/1.3 Inter,sans-serif", letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--wn-accent)" }}>Who we work with</div>
             <h2 style={{ margin: "12px 0 0", font: "700 38px/1.2 Poppins,sans-serif", letterSpacing: "-0.01em", color: "var(--wn-text)" }}>
-              Founder-owned businesses and the people buying them
+              Founder-owned businesses
             </h2>
             <p style={{ margin: "14px 0 0", font: "400 18px/1.65 Inter,sans-serif", color: "var(--wn-text-muted)", textWrap: "pretty" }}>
-              From first hire to $10M in revenue — plus ETA searchers who need diligence-grade numbers before close and a real close cadence after it.
+              From first hire to $10M in revenue, along with ETA searchers who need diligence-grade numbers before acquisition and a reliable close cadence after it.
             </p>
           </div>
           <div className="wn-chip-grid">
@@ -181,7 +186,7 @@ export default function Home() {
             <div style={{ font: "600 13px/1.3 Inter,sans-serif", letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--wn-accent)" }}>Walk · Run</div>
             <h2 style={{ margin: 0, font: "700 38px/1.2 Poppins,sans-serif", letterSpacing: "-0.01em", color: "var(--wn-text)" }}>Two ways to work together</h2>
             <p style={{ margin: 0, font: "400 19px/1.65 Inter,sans-serif", color: "var(--wn-text-muted)" }}>
-              Start with a close you can rely on. Add advisory when you want a second set of eyes on the decisions.
+              Start with a monthly close and financial reporting package you can rely on. Add advisory when you want a second set of eyes on the decisions & trajectory.
             </p>
           </div>
           <div className="wn-grid-2" style={{ marginTop: 48, maxWidth: 900, marginLeft: "auto", marginRight: "auto" }}>
