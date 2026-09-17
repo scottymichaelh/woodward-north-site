@@ -17,7 +17,7 @@ const problems = [
    {
     icon: "calendar-check",
     title: "Time you won't get back",
-    body: "Books close six weeks late, so every decision is made on last quarter's information or gut instinct.",
+    body: "You're behind trying to close your books instead of building your business, spending time with customers, or being with your family",
   }, 
   {
     icon: "file-text",
