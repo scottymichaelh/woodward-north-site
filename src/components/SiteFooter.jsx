@@ -24,7 +24,7 @@ const columns = [
   },
 ];
 
-const contact = ["scott@woodwardnorth.com", "(612) 555-0142", "Remote practice, clients nationwide"];
+const contact = ["scott@woodwardnorth.com", "Based in Birmingham, MI. Serving clients in the Metro-Detroit, MI area and Chicago, IL"];
 
 const social = [
   { iconName: "linkedin", href: "https://www.linkedin.com/in/scotthalasy/", label: "LinkedIn" },
