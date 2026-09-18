@@ -81,8 +81,6 @@ export default function Home() {
             <h2 style={{ margin: 0, font: "500 56px/1.15 Poppins,sans-serif", letterSpacing: "-0.01em", color: "var(--wn-text)", textWrap: "balance" }}>
               Get Your Time Back. Gain Financial Clarity. Make Better Decisions 
             </h2>
-            </h1>
-        </div>
             <p style={{ margin: 0, font: "400 19px/1.65 Inter,sans-serif", color: "var(--wn-text-muted)", maxWidth: "33em", textWrap: "pretty" }}>
               Woodward North closes your month, provides financial reports you can understand, and sits down with you to help decide what to do about them. Built for
               founder-owned businesses up to $10M in revenue.
