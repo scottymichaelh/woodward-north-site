@@ -214,15 +214,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section style={{ padding: "0 24px clamp(64px,9vw,104px)", background: "var(--wn-bg)" }}>
-        <div style={{ maxWidth: 900, margin: "0 auto", background: "var(--wn-cream-200)", border: "1px dashed #D9CBB6", borderRadius: 16, padding: 44, textAlign: "center" }}>
-          <div style={{ font: "600 13px/1.3 Inter,sans-serif", letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--wn-accent)" }}>Client words</div>
-          <p style={{ margin: "14px 0 0", font: "400 17px/1.65 Inter,sans-serif", color: "var(--wn-text-muted)" }}>
-            Two client testimonials go here — name, business, and one specific thing that changed. Send them over and they drop straight in.
-          </p>
-        </div>
-      </section>
-
       <CTABand
         eyebrow="Next step"
         title="Bring the books. We'll tell you what they need."
