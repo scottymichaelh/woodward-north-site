@@ -12,22 +12,17 @@ const problems = [
   {
     icon: "calendar-check",
     title: "The close never happens",
-    body: "Books close six weeks late, so every decision is made on last quarter's information or gut instinct.",
+    body: "Books close six weeks late, so every decision is made on last month's information or gut instinct.",
   },
    {
     icon: "calendar-check",
     title: "Time you won't get back",
-    body: "You're behind trying to close your books instead of building your business, spending time with customers, or being with your family",
+    body: "You're behind trying to manange & close your books instead of building your business, spending time with customers, or being with your family",
   }, 
   {
     icon: "file-text",
     title: "Statements nobody explains",
-    body: "A P&L lands in your inbox each month. No one walks you through what changed and why it matters.",
-  },
-  {
-    icon: "repeat",
-    title: "Cash flow surprises",
-    body: "Payroll, tax, an overdue invoice, and a delayed receivable collide in the same week, and nobody saw it coming.",
+    body: "A P&L lands in your inbox each month, but no one walks you through the story behind the numbers. You're ready to fundraise, grow, or sell the business and want strategic guidance.",
   },
 ];
 
