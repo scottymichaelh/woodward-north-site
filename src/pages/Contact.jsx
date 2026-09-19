@@ -19,7 +19,28 @@ const industries = [
 
 export default function Contact() {
   const [sent, setSent] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState(false);
 
+  async function handleSubmit(e) {
+  e.preventDefault();
+  if (sending) return;
+  setSending(true);
+  setError(false);
+  try {
+    const res = await fetch("https://formspree.io/f/mdekaagj", {
+      method: "POST",
+      headers: { Accept: "application/json" },
+      body: new FormData(e.currentTarget),
+    });
+    if (res.ok) setSent(true);
+    else setError(true);
+  } catch {
+    setError(true);
+  }
+  setSending(false);
+}
+  
   return (
     <div>
       <section style={{ background: "var(--wn-gradient-hero)", padding: "clamp(64px,9vw,80px) 24px clamp(48px,7vw,64px)" }}>
@@ -46,13 +67,10 @@ export default function Contact() {
                 </p>
               </div>
             ) : (
-              <form
-                onSubmit={(e) => {
-                  e.preventDefault();
-                  setSent(true);
-                }}
+                <form
+                onSubmit={handleSubmit}
                 style={{ display: "flex", flexDirection: "column", gap: 20 }}
-              >
+                >
                 <h2 style={{ margin: 0, font: "700 26px/1.2 Poppins,sans-serif", color: "var(--wn-text)" }}>Tell us about your business</h2>
                 <div className="wn-form-row">
                   <Field label="Name" htmlFor="cf-name" required>
@@ -68,7 +86,7 @@ export default function Contact() {
                   </Field>
                   <Field label="Industry" htmlFor="cf-ind">
                     <Select id="cf-ind" name="industry">
-                      <option>Select one</option>
+                      <option value="">Select one</option>
                       {industries.map((i) => (
                         <option key={i}>{i}</option>
                       ))}
@@ -78,8 +96,13 @@ export default function Contact() {
                 <Field label="What do you need help with?" htmlFor="cf-msg" helper="Where the books stand today is the most useful thing you can tell us.">
                   <Textarea id="cf-msg" name="message" rows={5} placeholder="Books are six months behind and I can't price jobs without knowing my margins…" />
                 </Field>
+                {error && (
+                <p role="alert" style={{ margin: 0, font: "400 14px/1.6 Inter,sans-serif", color: "#B3261E" }}>
+                  Something went wrong sending your message. Please try again or email scott@woodwardnorth.com.
+                </p>
+                )}
                 <div style={{ display: "flex", alignItems: "center", gap: 16, flexWrap: "wrap" }}>
-                  <Button size="lg" type="submit">Send message</Button>
+                  <Button size="lg" type="submit">{sending ? "Sending…" : "Send message"}</Button>
                   <span style={{ font: "400 14px/1.6 Inter,sans-serif", color: "var(--wn-text-muted)" }}>No pitch deck. No obligation.</span>
                 </div>
               </form>
