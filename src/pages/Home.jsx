@@ -73,7 +73,7 @@ export default function Home() {
             <div style={{ font: "600 13px/1.3 Inter,sans-serif", letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--wn-accent)" }}>
               Bookkeeping &amp; business advisory
             </div>
-            <h2 style={{ margin: 0, font: "400 56px/1.15 Poppins,sans-serif", letterSpacing: "-0.01em", color: "var(--wn-text)", textWrap: "balance" }}>
+            <h2 style={{ margin: 0, font: "500 46px/1.15 Poppins,sans-serif", letterSpacing: "-0.01em", color: "var(--wn-text)", textWrap: "balance" }}>
               Get Your Time Back. Gain Financial Clarity. Make Better Decisions 
             </h2>
             <p style={{ margin: 0, font: "400 19px/1.65 Inter,sans-serif", color: "var(--wn-text-muted)", maxWidth: "33em", textWrap: "pretty" }}>
@@ -105,7 +105,7 @@ export default function Home() {
           <div style={{ maxWidth: 760 }}>
             <div style={{ font: "600 13px/1.3 Inter,sans-serif", letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--wn-accent)" }}>The problem</div>
             <h2 style={{ margin: "12px 0 0", font: "700 38px/1.2 Poppins,sans-serif", letterSpacing: "-0.01em", color: "var(--wn-text)" }}>
-              Every month you wait costs time, energey and financial clarity.
+              Every month you wait costs time, energy and financial clarity.
             </h2>
             <p style={{ margin: "14px 0 0", font: "400 19px/1.65 Inter,sans-serif", color: "var(--wn-text-muted)", textWrap: "pretty" }}>
               Founders and owners must make decisions based on trustworthy numbers. They're short on time, and would rather focus on building a business. What's lacking is a trusted local partner who will tell 
