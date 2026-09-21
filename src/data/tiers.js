@@ -7,11 +7,13 @@ export const walkFeatures = [
 
 export const runFeatures = [
   "Everything in Walk",
-  "Monthly performance review call against plan",
+  "Monthly performance review call",
+  "Advisory that meets you where you are with the following available services:",
   "13-week rolling cash-flow forecast",
-  "Advisory that meets you where you are:",
   "P&L and balance sheet projections",
-  "Fundraising preparation, valuation & exit planning",
+  "Fundraising preparation, 
+  "Valuation",
+  "exit planning",
 ];
 
 export const svcClose = [
