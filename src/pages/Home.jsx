@@ -33,19 +33,9 @@ const services = [
     body: "All transactions recorded and categorized the same way each month, every account reconciled and closed, and a financial reporting package that includes the story behind the numbers (what changed & why it matters).",
   },
   {
-    icon: "search",
-    title: "Catch-up & cleanup",
-    body: "Months or years behind, or working from a chart of accounts that grew by accident. We rebuild it, tie it out, and hand back a clean opening balance.",
-  },
-  {
-    icon: "trending-up",
-    title: "Cash-flow forecasting & budgets",
-    body: "We meet you where you are. A rolling 13-week cash view and an annual budget, updated with real actuals.",
-  },
-  {
     icon: "compass",
     title: "Financial Planning & Analysis (FP&A-In-A-Box)",
-    body: "Confidently run towards your goals with the right strategic financial guidance; only what you need when you need it. Budgeting & forecasting, valuations, fundraising preparation, exit planning",
+    body: "Confidently run towards your goals with the right strategic financial guidance; only what you need when you need it. Budgeting & forecasting, operational modeling/planning, valuations, fundraising preparation, exit planning",
   },
 ];
 
