@@ -45,7 +45,7 @@ const services = [
   {
     icon: "compass",
     title: "Financial Planning & Analysis (FP&A-In-A-Box)",
-    body: "Helping you run towards your goals, providing you with strategic financial guidance you need when you need it. Budgeting & forecasting, valuations, fundraising preparation, exit planning",
+    body: "Confidently run towards your goals with the right strategic financial guidance; only what you need when you need it. Budgeting & forecasting, valuations, fundraising preparation, exit planning",
   },
 ];
 
