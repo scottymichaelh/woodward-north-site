@@ -30,7 +30,7 @@ const services = [
   {
     icon: "calendar-check",
     title: "Monthly bookkeeping & close",
-    body: "All transactions recorded and categorized the same way each month, every account reconciled and closed, and a financial reporting package that includes the story behind the numbers.",
+    body: "All transactions recorded and categorized the same way each month, every account reconciled and closed, and a financial reporting package that includes the story behind the numbers (what changed & why it matters).",
   },
   {
     icon: "search",
@@ -44,8 +44,8 @@ const services = [
   },
   {
     icon: "compass",
-    title: "Advisory & KPIs",
-    body: "Helping you run towards your goals. Budgeting & forecasting, valuations, fundraising preparation, exit planning",
+    title: "Financial Planning & Analysis (FP&A-In-A-Box)",
+    body: "Helping you run towards your goals, providing you with strategic financial guidance you need when you need it. Budgeting & forecasting, valuations, fundraising preparation, exit planning",
   },
 ];
 
