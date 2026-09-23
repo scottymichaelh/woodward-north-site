@@ -21,7 +21,7 @@ const problems = [
   }, 
   {
     icon: "file-text",
-    title: "Financial health nobody explains",
+    title: "Financial trends nobody explains",
     body: "Financial statements land in your inbox each month, but no one walks you through the story behind the numbers. You're ready to fundraise, grow organically or through acquisition, or sell the business and want strategic guidance.",
   },
 ];
