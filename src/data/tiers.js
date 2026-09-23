@@ -8,11 +8,12 @@ export const walkFeatures = [
 export const runFeatures = [
   "Everything in Walk",
   "Monthly performance review call",
-  "Advisory that meets you where you are",
+  "FP&A Advisory that meets you where you are",
   "With the following available services:",
   "13-week rolling cash-flow forecast",
   "P&L and balance sheet projections",
   "Fundraising preparation", 
+  "M&A planning",
   "Valuation",
   "Exit planning",
 ];
