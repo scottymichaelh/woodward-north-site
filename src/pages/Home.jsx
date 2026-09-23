@@ -39,8 +39,8 @@ const services = [
   },
   {
     icon: "compass",
-    title: "M&A Advisory",
-    body: "You see an opportunity to grow through strategic M&A, but need the right financial planning guidance. Valuations, M&A modeling & scenario planning.",
+    title: "M&A Planning",
+    body: "You see an opportunity to grow through strategic M&A, but need the right financial planning guidance: Valuations, M&A modeling & scenario planning.",
   },
 ];
 
