@@ -21,8 +21,8 @@ const problems = [
   }, 
   {
     icon: "file-text",
-    title: "Statements nobody explains",
-    body: "A P&L lands in your inbox each month, but no one walks you through the story behind the numbers. You're ready to fundraise, grow, or sell the business and want strategic guidance.",
+    title: "Financial health nobody explains",
+    body: "Financial statements land in your inbox each month, but no one walks you through the story behind the numbers. You're ready to fundraise, grow organically or through acquisition, or sell the business and want strategic guidance.",
   },
 ];
 
@@ -36,6 +36,11 @@ const services = [
     icon: "compass",
     title: "Financial Planning & Analysis (FP&A-In-A-Box)",
     body: "Confidently run towards your goals with the right strategic financial guidance; only what you need when you need it. Budgeting & forecasting, operational modeling/planning, valuations, fundraising preparation, exit planning",
+  },
+  {
+    icon: "compass",
+    title: "M&A Advisory",
+    body: "You see an opportunity to grow through strategic M&A, but need the right financial planning guidance. Valuations, M&A modeling & scenario planning.",
   },
 ];
 
