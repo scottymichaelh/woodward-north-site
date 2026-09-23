@@ -8,7 +8,7 @@ import { walkFeatures, runFeatures, svcClose, svcAdvisory, svcProjects } from ".
 
 const detail = [
   { title: "Monthly bookkeeping & close", note: "Included in Walk and Run.", items: svcClose },
-  { title: "Performance review & advisory", note: "Included in Run.", items: svcAdvisory },
+  { title: "Performance review & FP&A", note: "Included in Run.", items: svcAdvisory },
   { title: "Project work", note: "Quoted separately, flat fee.", items: svcProjects },
 ];
 
@@ -33,7 +33,7 @@ export default function Services() {
         <div style={{ maxWidth: 900, margin: "0 auto" }}>
           <div className="wn-grid-2" style={{ alignItems: "stretch" }}>
             <TierCard name="Walk" tagline="A monthly close you can plan from. Starting at:" price="$400" cadence="/month" features={walkFeatures} ctaLabel="Start with Walk" ctaTo="/contact" />
-            <TierCard name="Run" tagline="The close, plus advisory on top of it. Starting at:" price="$1,200" cadence="/month" features={runFeatures} ctaLabel="Talk about Run" ctaTo="/contact" />
+            <TierCard name="Run" tagline="The close, plus fractional FP&A as you need it. Starting at:" price="$1,200" cadence="/month" features={runFeatures} ctaLabel="Talk about Run" ctaTo="/contact" />
           </div>
           <p style={{ textAlign: "center", font: "400 14px/1.6 Inter,sans-serif", color: "var(--wn-text-muted)", marginTop: 24 }}>
             Final pricing depends on transaction volume, number of accounts and entities.
