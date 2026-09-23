@@ -176,7 +176,7 @@ export default function Home() {
             <div style={{ font: "600 13px/1.3 Inter,sans-serif", letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--wn-accent)" }}>Walk · Run</div>
             <h2 style={{ margin: 0, font: "700 38px/1.2 Poppins,sans-serif", letterSpacing: "-0.01em", color: "var(--wn-text)" }}>Two ways to work together</h2>
             <p style={{ margin: 0, font: "400 19px/1.65 Inter,sans-serif", color: "var(--wn-text-muted)" }}>
-              Start with a monthly close and financial reporting package you can rely on. Add advisory when you want a second set of eyes on the decisions & trajectory.
+              Start with a monthly close and financial reporting package you can rely on. Add FP&A services when you want a second set of eyes on the decisions & trajectory.
             </p>
           </div>
           <div className="wn-grid-2" style={{ marginTop: 48, maxWidth: 900, marginLeft: "auto", marginRight: "auto" }}>
