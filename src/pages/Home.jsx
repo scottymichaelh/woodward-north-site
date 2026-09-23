@@ -181,7 +181,7 @@ export default function Home() {
           </div>
           <div className="wn-grid-2" style={{ marginTop: 48, maxWidth: 900, marginLeft: "auto", marginRight: "auto" }}>
             <TierCard name="Walk" tagline="A monthly close you can plan from. Starting at:" price="$400" cadence="/month" features={walkFeatures} ctaLabel="Start with Walk" ctaTo="/contact" />
-            <TierCard name="Run" tagline="The close, plus fractional FP&A (Financial Planning & Analysis) on top of it. Starting at:" price="$1,200" cadence="/month" features={runFeatures} ctaLabel="Talk about Run" ctaTo="/contact" />
+            <TierCard name="Run" tagline="The close, plus fractional FP&A (Financial Planning & Analysis) as you need it. Starting at:" price="$1,200" cadence="/month" features={runFeatures} ctaLabel="Talk about Run" ctaTo="/contact" />
           </div>
           <p style={{ textAlign: "center", font: "400 14px/1.6 Inter,sans-serif", color: "var(--wn-text-muted)", marginTop: 24 }}>
             Catch-up work and ETA diligence engagements are scoped and quoted separately.
